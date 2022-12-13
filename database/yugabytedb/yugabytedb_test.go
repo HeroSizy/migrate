@@ -11,15 +11,15 @@ import (
 	"testing"
 	"time"
 
+	"code.in.spdigital.sg/sp-digital/migrate/v4"
 	"github.com/dhui/dktest"
-	"github.com/golang-migrate/migrate/v4"
 
 	_ "github.com/lib/pq"
 
-	dt "github.com/golang-migrate/migrate/v4/database/testing"
-	"github.com/golang-migrate/migrate/v4/dktesting"
+	dt "code.in.spdigital.sg/sp-digital/migrate/v4/database/testing"
+	"code.in.spdigital.sg/sp-digital/migrate/v4/dktesting"
 
-	_ "github.com/golang-migrate/migrate/v4/source/file"
+	_ "code.in.spdigital.sg/sp-digital/migrate/v4/source/file"
 )
 
 const defaultPort = 5433

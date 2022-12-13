@@ -1,9 +1,9 @@
 package cassandra
 
 import (
+	"code.in.spdigital.sg/sp-digital/migrate/v4"
 	"context"
 	"fmt"
-	"github.com/golang-migrate/migrate/v4"
 	"strconv"
 	"testing"
 )
@@ -14,9 +14,9 @@ import (
 )
 
 import (
-	dt "github.com/golang-migrate/migrate/v4/database/testing"
-	"github.com/golang-migrate/migrate/v4/dktesting"
-	_ "github.com/golang-migrate/migrate/v4/source/file"
+	dt "code.in.spdigital.sg/sp-digital/migrate/v4/database/testing"
+	"code.in.spdigital.sg/sp-digital/migrate/v4/dktesting"
+	_ "code.in.spdigital.sg/sp-digital/migrate/v4/source/file"
 )
 
 var (

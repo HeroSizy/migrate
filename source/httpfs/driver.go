@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/golang-migrate/migrate/v4/source"
+	"code.in.spdigital.sg/sp-digital/migrate/v4/source"
 )
 
 // driver is a migration source driver for reading migrations from

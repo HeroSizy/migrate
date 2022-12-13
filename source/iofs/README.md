@@ -1,3 +1,3 @@
 # iofs
 
-https://pkg.go.dev/github.com/golang-migrate/migrate/v4/source/iofs
+https://pkg.go.dev/code.in.spdigital.sg/sp-digital/migrate/v4/source/iofs

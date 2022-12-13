@@ -17,12 +17,12 @@ import (
 	"strconv"
 	"testing"
 
+	"code.in.spdigital.sg/sp-digital/migrate/v4"
+	dt "code.in.spdigital.sg/sp-digital/migrate/v4/database/testing"
+	"code.in.spdigital.sg/sp-digital/migrate/v4/dktesting"
+	_ "code.in.spdigital.sg/sp-digital/migrate/v4/source/file"
 	"github.com/dhui/dktest"
 	"github.com/go-sql-driver/mysql"
-	"github.com/golang-migrate/migrate/v4"
-	dt "github.com/golang-migrate/migrate/v4/database/testing"
-	"github.com/golang-migrate/migrate/v4/dktesting"
-	_ "github.com/golang-migrate/migrate/v4/source/file"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -16,14 +16,14 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/golang-migrate/migrate/v4"
+	"code.in.spdigital.sg/sp-digital/migrate/v4"
 
 	"github.com/dhui/dktest"
 
-	"github.com/golang-migrate/migrate/v4/database"
-	dt "github.com/golang-migrate/migrate/v4/database/testing"
-	"github.com/golang-migrate/migrate/v4/dktesting"
-	_ "github.com/golang-migrate/migrate/v4/source/file"
+	"code.in.spdigital.sg/sp-digital/migrate/v4/database"
+	dt "code.in.spdigital.sg/sp-digital/migrate/v4/database/testing"
+	"code.in.spdigital.sg/sp-digital/migrate/v4/dktesting"
+	_ "code.in.spdigital.sg/sp-digital/migrate/v4/source/file"
 )
 
 const (

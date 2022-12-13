@@ -13,9 +13,9 @@ cd examples/migrations && go-bindata -pkg migrations .
 
 ```go
 import (
-  "github.com/golang-migrate/migrate/v4"
-  "github.com/golang-migrate/migrate/v4/source/go_bindata"
-  "github.com/golang-migrate/migrate/v4/source/go_bindata/examples/migrations"
+  "code.in.spdigital.sg/sp-digital/migrate/v4"
+  "code.in.spdigital.sg/sp-digital/migrate/v4/source/go_bindata"
+  "code.in.spdigital.sg/sp-digital/migrate/v4/source/go_bindata/examples/migrations"
 )
 
 func main() {

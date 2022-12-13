@@ -3,9 +3,9 @@ package googlecloudstorage
 import (
 	"testing"
 
+	"code.in.spdigital.sg/sp-digital/migrate/v4/source"
+	st "code.in.spdigital.sg/sp-digital/migrate/v4/source/testing"
 	"github.com/fsouza/fake-gcs-server/fakestorage"
-	"github.com/golang-migrate/migrate/v4/source"
-	st "github.com/golang-migrate/migrate/v4/source/testing"
 )
 
 func Test(t *testing.T) {

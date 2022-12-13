@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	st "github.com/golang-migrate/migrate/v4/source/testing"
+	st "code.in.spdigital.sg/sp-digital/migrate/v4/source/testing"
 )
 
 func Test(t *testing.T) {

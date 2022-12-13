@@ -1,4 +1,4 @@
-module github.com/golang-migrate/migrate/v4
+module code.in.spdigital.sg/sp-digital/migrate/v4
 
 require (
 	cloud.google.com/go/spanner v1.40.0

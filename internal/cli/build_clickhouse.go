@@ -4,6 +4,6 @@
 package cli
 
 import (
+	_ "code.in.spdigital.sg/sp-digital/migrate/v4/database/clickhouse"
 	_ "github.com/ClickHouse/clickhouse-go"
-	_ "github.com/golang-migrate/migrate/v4/database/clickhouse"
 )

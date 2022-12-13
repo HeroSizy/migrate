@@ -3,10 +3,10 @@ package cockroachdb
 // error codes https://github.com/lib/pq/blob/master/error.go
 
 import (
+	"code.in.spdigital.sg/sp-digital/migrate/v4"
 	"context"
 	"database/sql"
 	"fmt"
-	"github.com/golang-migrate/migrate/v4"
 	"log"
 	"strings"
 	"testing"
@@ -18,9 +18,9 @@ import (
 )
 
 import (
-	dt "github.com/golang-migrate/migrate/v4/database/testing"
-	"github.com/golang-migrate/migrate/v4/dktesting"
-	_ "github.com/golang-migrate/migrate/v4/source/file"
+	dt "code.in.spdigital.sg/sp-digital/migrate/v4/database/testing"
+	"code.in.spdigital.sg/sp-digital/migrate/v4/dktesting"
+	_ "code.in.spdigital.sg/sp-digital/migrate/v4/source/file"
 )
 
 const defaultPort = 26257

@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/golang-migrate/migrate/v4/database"
+	"code.in.spdigital.sg/sp-digital/migrate/v4/database"
 )
 
 // Test runs tests against database implementations.
